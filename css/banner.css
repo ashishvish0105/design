@@ -1,0 +1,57 @@
+.banner
+{
+    position: relative;
+    height: 900px;
+    overflow: hidden;
+} 
+img.banner-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -2;
+}
+.banner::after
+{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: -1;
+    
+}
+.cust-card{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+}
+.banner .text-overs-set{
+    padding-top:150px;
+}
+
+h1.banner-title{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 100px;
+}
+.banner-icon svg{
+    color: var(--color-primary);
+    font-size: 60px;
+    stroke-width: 1;
+}
+.banner .card-title{
+    font-size: 24px;
+}
+.banner .card-body{
+    padding: 12px 50px;
+}
+.cst-pd-top{
+    padding-top: 85px;
+}

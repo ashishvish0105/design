@@ -1,0 +1,42 @@
+footer {
+    position: relative;
+}
+
+footer .back-bg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+footer .back-bg img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+footer .back-bg::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.input-style-dis {
+    display: block;
+    margin: auto;
+}
+
+.text-center-cont {
+    padding: 150px 0px;
+    text-align: center;
+}
+
+.per-btn {
+    padding: 20px 50px;
+    font-size: 16px;
+}

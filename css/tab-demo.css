@@ -1,0 +1,98 @@
+.tab-demo {
+    background: #191919;
+}
+
+.cust-nav {
+    height: 50px;
+    border-radius: 50px;
+    outline: 1px solid var(--color-gray);
+    overflow: hidden;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-tab {
+    display: inline-block;
+}
+
+.cust-nav a {
+    padding: 15px 35px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-gray);
+}
+
+.cust-nav a:focus,
+.cust-nav a.active {
+    background-color: var(--color-primary);
+    border-radius: 50px;
+    color: var(--color-white);
+}
+
+.cust-cart-title {
+    display: block;
+    padding: 13px 95px;
+    color: #1f1f25;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.cut-card-box {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.cut-card-box:hover {
+    transform: translatey(-10px);
+}
+
+.icon-text-style .title {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.icon-text-style .info {
+    color: var(--color-dark-gray);
+}
+
+.cut-card-box .space-box {
+    bottom: 0px 0xp 30px 0px;
+}
+
+.box-faq {
+    border-bottom: 1px solid var(--color-gray);
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.faq-box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 70px;
+}
+
+.faq-box h1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}

@@ -1,0 +1,91 @@
+@import "../css/typography.css";
+@import "./header.css";
+@import "./banner.css";
+@import "./tab-demo.css";
+@import "./footer.css";
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+.font-Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+figure {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--color-gray);
+}
+
+.theme-gradient {
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, var(--color-primary) 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.ds-top {
+    padding-top: 150px;
+}
+
+.ds-bottom {
+    padding-bottom: 150px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.cust-icon {
+    font-size: 45px;
+    color: var(--color-primary);
+}
+
+.card-pd {
+    padding: 40px 50px 30px 30px;
+}
+
+.col-white {
+    color: var(--color-white);
+}
+
+.faq .container {
+    max-width: 800px;
+}
+
+.info-faq {
+    display: none;
+}
